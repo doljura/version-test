@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.3.0](https://github.com/doljura/version-test/compare/v4.0.0...v3.3.0) (2020-02-10)
+
+
+### Features
+
+* DSC-223 test commit fix 12345 ([e62f087](https://github.com/doljura/version-test/commit/e62f087bc24937a45820d3eebd37b2f251c8eed9))
+
+
+### Bug Fixes
+
+* DSC-223 test commit fix 1000 ([32cbad6](https://github.com/doljura/version-test/commit/32cbad6ece24f5df1a0342e9344a52c47017c962))
+* DSC-223 test commit fix 123 ([4995cc4](https://github.com/doljura/version-test/commit/4995cc4772f1ae08558242290ab7833d3143b287))
+* DSC-223 test commit fix 333345555 ([0db635e](https://github.com/doljura/version-test/commit/0db635e6ebc5cc07c446ea3391103d0f6418e28c))
+* DSC-223 test commit fix gagagag ([ddcc0da](https://github.com/doljura/version-test/commit/ddcc0da05d1dc8444717003000c3bdc6f128b705))
+* DSC-223 test commit fix xczxzcx ([71d99c8](https://github.com/doljura/version-test/commit/71d99c86bfc5d6867f24c00785b3d73d46e4bd02))
+
 ## [3.2.0](https://github.com/doljura/version-test/compare/v4.0.0...v3.2.0) (2020-02-10)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "version-test",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "testing version",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,10 @@
     "skip": {
       "commit": true,
       "tag": true
+    },
+    "changelogHeader": "---",
+    "scripts": {
+      "prechangelog": "rm CHANGELOG.md"
     }
   },
   "dependencies": {
