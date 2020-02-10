@@ -10,6 +10,28 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^4.2.1",
     "standard-version": "^7.1.0"
+  },
+  "config": {
+    "commit-message-validator": {
+      "pattern": "(^((fix)|(feat)|(docs)|(refactor)|(chore))(!)?:( BREAKING CHANGE)? \\w{3}-\\d{3,} ([a-zA-Z0-9]+.*)+)",
+      "errorMessage": "Commit message must be in format '<fix|feat|docs|refactor|chore>!(exclamation mark optional): <\"jira_project\"><\"-\"number_of_ticket><space><commit_message>'"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commit-message-validator",
+      "pre-push": "npm run test"
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "commit": true,
+      "tag": true
+    }
+  },
+  "dependencies": {
+    "commit-message-validator": "^0.1.11"
   }
 }
